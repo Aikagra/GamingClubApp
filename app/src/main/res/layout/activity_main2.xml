@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context=".MainActivity2">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/listView6969"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="150dp"
+        android:layout_toEndOf="@+id/button4"
+        android:background="@drawable/button"
+        android:onClick="openActivity5"
+        android:text="Members"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#EC407A" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/listView6969"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button"
+        android:onClick="openActivity6"
+        android:text="Wins"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#EC407A" />
+
+    <Button
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/listView6969"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/button"
+        android:onClick="openActivity101"
+        android:text="Schedule"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#EC407A" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="411dp"
+        android:layout_height="51dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="Welcome To GamingClub"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="54dp"
+        android:layout_height="47dp"
+        android:onClick="loginactivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@drawable/logout"
+        app:tint="#FBFAFA" />
+
+    <ProgressBar
+        android:id="@+id/progressBar202"
+        style="horiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="300dp"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/listView6969"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        android:layout_below="@+id/textView3" >
+
+    </ListView>
+
+
+</RelativeLayout>
